@@ -1,0 +1,157 @@
+.row {
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 2.9fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "parte2 parte3"; 
+  }
+  .parte2 { grid-area: parte2; }
+  .parte3 { grid-area: parte3; }
+body {
+    background-color: rgb(193, 0, 0);
+    text-align: center;
+}
+header {
+    background-color: rgb(193, 0, 0);
+}
+h1 {
+    font-size: 28px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+}
+h4, p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#img-total{
+    width:70px;
+    margin-right: 200px;
+
+}
+.columns img{
+    width: 200px;
+    margin-top: 25px;
+    border-radius: 50px;
+}
+
+
+.borrar-comida {
+    background-color: red;
+    font-size: 12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50%;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+
+.submenu {
+    position: relative;
+}
+.submenu #carrito{
+    display: none;
+}
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.agregar-carrito {
+    margin:10px 0;
+}
+.card {
+    border: 1px solid rgb(226, 0, 0);
+    border-radius: 100px;
+    background: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.info-card p, 
+.card h4 {
+    margin-bottom: 5px;
+}
+.info-card .precio {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #ff0000;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; }
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+  .button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+    color: rgb(193, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(193, 0, 0); }
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  input[type="submit"].button-primary:hover,
+  input[type="reset"].button-primary:hover,
+  input[type="button"].button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus,
+  input[type="submit"].button-primary:focus,
+  input[type="reset"].button-primary:focus,
+  input[type="button"].button-primary:focus {
+    color: rgb(255, 255, 255);
+    background-color:rgb(193, 0, 0);;
+    border-color: rgb(193, 0, 0); }
+  
+  
